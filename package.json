@@ -1,0 +1,71 @@
+{
+  "name": "markdown-blog-ext",
+  "displayName": "markdown-blog-ext",
+  "description": "An enhancement for VSCode which works with markdown-blog-template",
+  "version": "0.0.1",
+  "publisher": "BHznJNs",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "l10n": "./l10n",
+  "contributes": {
+    "commands": [
+      {
+        "command": "markdown-blog-ext.prepublish",
+        "title": "%commands.prepublish.title%"
+      },
+      {
+        "command": "markdown-blog-ext.build",
+        "title": "%commands.build.title%"
+      },
+      {
+        "command": "markdown-blog-ext.indexing",
+        "title": "%commands.indexing.title%"
+      },
+      {
+        "command": "markdown-blog-ext.count",
+        "title": "%commands.count.title%"
+      },
+      {
+        "command": "markdown-blog-ext.backup",
+        "title": "%commands.backup.title%"
+      },
+      {
+        "command": "markdown-blog-ext.restore",
+        "title": "%commands.restore.title%"
+      },
+      {
+        "command": "markdown-blog-ext.preview",
+        "title": "%commands.preview.title%"
+      },
+      {
+        "command": "markdown-blog-ext.create-summary",
+        "title": "%commands.create-summary.title%"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^20.17.10",
+    "@types/vscode": "^1.96.0",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.16.0",
+    "typescript": "^5.7.2"
+  }
+}

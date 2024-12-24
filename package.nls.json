@@ -1,0 +1,10 @@
+{
+  "commands.prepublish.title": "markdown-blog: Prepublish build.",
+  "commands.build.title": "markdown-blog: Build your blogs.",
+  "commands.indexing.title": "markdown-blog: Regenerate blog index files.",
+  "commands.count.title": "markdown-blog: Count blog words.",
+  "commands.backup.title": "markdown-blog: Backup blog metadata.",
+  "commands.restore.title": "markdown-blog: Restore blog metadata.",
+  "commands.preview.title": "markdown-blog: Start a preview server.",
+  "commands.create-summary.title": "markdown-blog: Create a stage summary."
+}
