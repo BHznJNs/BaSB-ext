@@ -1,0 +1,17 @@
+{
+  "No workspace folder is open. Please open a folder and try again.": "No workspace folder is open. Please open a folder and try again.",
+  "Not a markdown-blog workspace.": "Not a markdown-blog workspace.",
+  "Running: {0} in {1}.": "Running: {0} in {1}.",
+  "Daily Summary": "Daily Summary",
+  "Weekly Summary": "Weekly Summary",
+  "Monthly Summary": "Monthly Summary",
+  "Half-monthly Summary": "Half-monthly Summary",
+  "Yearly Summary": "Yearly Summary",
+  "Half-yearly Summary": "Half-yearly Summary",
+  "{0} Summary": "{0} Summary",
+  "Week {0} Summary": "Week {0} Summary",
+  "{0} {1} Monthly Summary": "{0} {1} Monthly Summary",
+  "{0} {1} Half-Month Summary": "{0} {1} Half-Month Summary",
+  "{0} Yearly Summary": "{0} Yearly Summary",
+  "{0} Half-Year Summary": "{0} Half-Year Summary"
+}
