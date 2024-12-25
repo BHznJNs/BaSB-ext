@@ -3,8 +3,11 @@
   "displayName": "markdown-blog-ext",
   "description": "An enhancement for VSCode which works with markdown-blog-template",
   "icon": "logo.png",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "BHznJNs",
+  "repository": {
+    "url": "https://github.com/BHznJNs/markdown-blog-ext"
+  },
   "engines": {
     "vscode": "^1.92.0"
   },
