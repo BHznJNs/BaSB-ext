@@ -3,7 +3,7 @@
   "displayName": "markdown-blog-ext",
   "description": "An enhancement for VSCode which works with markdown-blog-template",
   "icon": "logo.png",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "publisher": "BHznJNs",
   "repository": {
     "url": "https://github.com/BHznJNs/markdown-blog-ext"
@@ -47,11 +47,25 @@
         "command": "markdown-blog-ext.preview",
         "title": "%commands.preview.title%"
       },
+
       {
         "command": "markdown-blog-ext.create-summary",
         "title": "%commands.create-summary.title%"
+      },
+      {
+        "command": "markdown-blog-ext.import-resources",
+        "title": "%commands.impory-resources.title%"
       }
-    ]
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "markdown-blog-ext.import-resources",
+          "when": "editorLangId == markdown",
+          "group": "file"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

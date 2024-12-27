@@ -1,17 +1,17 @@
 {
   "No workspace folder is open. Please open a folder and try again.": "未打开工作区文件夹。请打开一个文件夹后再试。",
   "Not a markdown-blog workspace.": "不是一个 markdown-blog 工作区。",
-  "Running: {0} in {1}.": "正在运行：{0} 在 {1} 中。",
+  "Running: {0} in {1}.": "正在运行：{0}",
   "Daily Summary": "每日总结",
   "Weekly Summary": "每周总结",
   "Monthly Summary": "每月总结",
   "Half-monthly Summary": "半月总结",
   "Yearly Summary": "年度总结",
   "Half-yearly Summary": "半年总结",
-  "{0} Summary": "{0} 日记",
+  "{0} Diary": "{0} 日记",
   "Week {0} Summary": "第 {0} 周总结",
-  "{0}-{1} Monthly Summary": "{0}-{1} 月度总结",
-  "{0}-{1} Half-Month Summary": "{0}-{1} 半月总结",
-  "{0} Yearly Summary": "{0} 年度总结",
-  "{0} Half-Year Summary": "{0} 半年总结"
+  "{0}-{1} Monthly Summary": "{0}年{1}月 月度总结",
+  "{0}-{1} Half-Month Summary": "{0}年{1}月 半月总结",
+  "{0} Yearly Summary": "{0}年 年度总结",
+  "{0} Half-Year Summary": "{0}年 半年总结"
 }

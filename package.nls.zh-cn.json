@@ -6,5 +6,7 @@
   "commands.backup.title": "markdown-blog: 备份博客元数据",
   "commands.restore.title": "markdown-blog: 恢复博客元数据",
   "commands.preview.title": "markdown-blog: 启用预览服务器",
-  "commands.create-summary.title": "markdown-blog: 创建阶段总结"
+  "commands.create-summary.title": "markdown-blog: 创建阶段总结",
+  "commands.impory-resources.title": "Markdown: 导入资源文件"
+
 }
