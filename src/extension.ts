@@ -35,16 +35,12 @@ function registerCommand(context: vscode.ExtensionContext, commandName: string, 
             return;
         }
         const workspaceRoot = workspaceFolders[0].uri.fsPath;
-
-        vscode.window.showInformationMessage(
-            vscode.l10n.t('Running: {0} in {1}.', terminalCommand, workspaceRoot));
         const terminal = vscode.window.terminals.find(t => t.name === "markdown-blog command") ||
                          vscode.window.createTerminal("markdown-blog command");
         terminal.show();
         terminal.sendText(`cd "${workspaceRoot}"`);
         terminal.sendText(terminalCommand);
     });
-
     context.subscriptions.push(disposable);
 }
 
