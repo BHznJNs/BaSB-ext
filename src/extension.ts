@@ -29,7 +29,7 @@ const isValidWorkspace: boolean = (function(): boolean {
 })();
 
 function registerCommand(context: vscode.ExtensionContext, commandName: string, terminalCommand: string) {
-    const disposable = vscode.commands.registerCommand(commandName, () => {
+    const disposable = vscode.commands.registerCommand('markdown-blog-ext.' + commandName, () => {
         const workspaceFolders = vscode.workspace.workspaceFolders as vscode.WorkspaceFolder[];
         if (!isValidWorkspace) {
             return;
