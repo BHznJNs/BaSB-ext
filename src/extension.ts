@@ -181,15 +181,16 @@ function registerImportResourcesCommand(context: vscode.ExtensionContext) {
                 value: fileNameWithoutExt,
             });
             const finalFilename = (newFilenameWithoutExt || fileNameWithoutExt) + extname;
+            const relativePath = `.${editingFileNameWithoutExt}/${finalFilename}`;
             const targetPath = path.join(resourceFolderPath, finalFilename);
             fs.copyFileSync(currentFileName, targetPath);
-            await insertMediaFile(editor!, finalFilename, {
+            await insertMediaFile(editor!, relativePath, {
                 useFilenameAsAlt: false,
                 editCallback: (editor: vscode.TextEditor) => {
                     const currentPosition = editor.selection.active;
                     const newPosition = new vscode.Position(
                         currentPosition.line,
-                        currentPosition.character - 3 - finalFilename.length
+                        currentPosition.character - 3 - relativePath.length
                     );
                     editor.selection = new vscode.Selection(newPosition, newPosition);        
                 },
