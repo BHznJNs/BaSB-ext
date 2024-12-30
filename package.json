@@ -3,7 +3,7 @@
   "displayName": "markdown-blog-ext",
   "description": "An enhancement for VSCode which works with markdown-blog-template",
   "icon": "logo.png",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "publisher": "BHznJNs",
   "repository": {
     "url": "https://github.com/BHznJNs/markdown-blog-ext"
@@ -14,7 +14,10 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:markdown",
+    "onCommand:markdown-blog-ext"
+  ],
   "main": "./out/extension.js",
   "l10n": "./l10n",
   "contributes": {
