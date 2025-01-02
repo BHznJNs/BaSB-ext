@@ -1,0 +1,216 @@
+{
+  "Bold Text": {
+    "prefix": "/",
+    "body": [
+      "##$1##"
+    ],
+    "description": "Insert bold text"
+  },
+  "Code": {
+    "prefix": "/",
+    "body": [
+      "``$1``"
+    ],
+    "description": "Insert inline code"
+  },
+  "Underlined Text": {
+    "prefix": "/",
+    "body": [
+      "__$1__"
+    ],
+    "description": "Insert underlined text"
+  },
+  "Italic Text": {
+    "prefix": "/",
+    "body": [
+      "//$1//"
+    ],
+    "description": "Insert italic text"
+  },
+  "Deleted Text": {
+    "prefix": "/",
+    "body": [
+      "--$1--"
+    ],
+    "description": "Insert deleted text"
+  },
+  "Dimmed Text": {
+    "prefix": "/",
+    "body": [
+      "::$1::"
+    ],
+    "description": "Insert dimmed text"
+  },
+  "Subscript Text": {
+    "prefix": "/",
+    "body": [
+      ",,$1,,"
+    ],
+    "description": "Insert Subscript text"
+  },
+  "Superscript Text": {
+    "prefix": "/",
+    "body": [
+      "''$1''"
+    ],
+    "description": "Insert superscript text"
+  },
+  "Formula": {
+    "prefix": "/",
+    "body": [
+      "$$$1$$"
+    ],
+    "description": "Insert inline formula"
+  },
+
+  "Quoted Text": {
+    "prefix": "/>",
+    "body": [
+      "> $1"
+    ],
+    "description": "Insert some quoted text"
+  },
+  "Note": {
+    "prefix": "/>",
+    "body": [
+      "> [note] $1",
+      "> $0"
+    ],
+    "description": "Insert some notes"
+  },
+  "Important Text": {
+    "prefix": "/>",
+    "body": [
+      "> [important] $1",
+      "> $0"
+    ],
+    "description": "Insert some important text"
+  },
+  "Tips": {
+    "prefix": "/>",
+    "body": [
+      "> [tip] $1",
+      "> $0"
+    ],
+    "description": "Insert some tips"
+  },
+  "Warning Text": {
+    "prefix": "/>",
+    "body": [
+      "> [warning] $1",
+      "> $0"
+    ],
+    "description": "Insert some warnings"
+  },
+  "Caution": {
+    "prefix": "/>",
+    "body": [
+      "> [caution] $1",
+      "> $0"
+    ],
+    "description": "Insert some cautions"
+  },
+
+  "Code Block": {
+    "prefix": "/`",
+    "body": [
+      "```$1",
+      "$0",
+      "```"
+    ],
+    "description": "Insert a code block"
+  },
+  "Collapse Block": {
+    "prefix": "/>>",
+    "body": [
+      ">>>$1",
+      "$0",
+      ">>>"
+    ],
+    "description": "Insert a collapse block"
+  },
+  "Formula Block": {
+    "prefix": "/$",
+    "body": [
+      "$$$$1",
+      "$0",
+      "$$$"
+    ],
+    "description": "Insert a formula block"
+  },
+  "Embedded Page Block": {
+    "prefix": "/@",
+    "body": [
+      "@@@",
+      "$1",
+      "@@@"
+    ],
+    "description": "Insert a formula block"
+  },
+  "QRCode Block": {
+    "prefix": "/!qr",
+    "body": [
+      "!!!qrcode",
+      "$1",
+      "!!!"
+    ],
+    "description": "Insert a QRCode from text"
+  },
+
+  "Echarts Block": {
+    "prefix": "/!echarts",
+    "body": [
+      "!!!echarts",
+      "option = {",
+      "  $1",
+      "}",
+      "!!!"
+    ],
+    "description": "Insert a Echarts diagram"
+  },
+  "Flow Chart Block": {
+    "prefix": "/!flowchart",
+    "body": [
+      "!!!flowchart",
+      "st=>start: $1",
+      "e=>end: $2",
+      "st->e",
+      "!!!"
+    ],
+    "description": "Insert a flow chart"
+  },
+  "Sequence Chart Block": {
+    "prefix": "/!sequence",
+    "body": [
+      "!!!sequence-chart",
+      "$1",
+      "terminators box",
+      "!!!"
+    ],
+    "description": "Insert a sequence chart"
+  },
+  "Gantt Chart Block": {
+    "prefix": "/!gantt",
+    "body": [
+      "!!!gantt-chart",
+      "{",
+      "  id: '$1',",
+      "  name: '',",
+      "  start: '',",
+      "  end: '',",
+      "},",
+      "!!!"
+    ],
+    "description": "Insert a gantt chart"
+  },
+  "Railroad Chart Block": {
+    "prefix": "/!railroad",
+    "body": [
+      "!!!railroad-chart",
+      "Diagram(",
+      "  $1)",
+      "!!!"
+    ],
+    "description": "Insert a railroad chart"
+  }
+}
