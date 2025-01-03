@@ -8,8 +8,9 @@ function registerCommand(context: vscode.ExtensionContext, commandName: string, 
             return;
         }
         const workspaceRoot = workspaceFolders[0].uri.fsPath;
-        const terminal = vscode.window.terminals.find(t => t.name === "markdown-blog command") ||
-                         vscode.window.createTerminal("markdown-blog command");
+        const terminalName = commandName === "preview" ? "markdown-blog preview" : "markdown-blog command";
+        const terminal = vscode.window.terminals.find(t => t.name === terminalName) ||
+                         vscode.window.createTerminal(terminalName);
         terminal.show();
         terminal.sendText(`cd "${workspaceRoot}"`);
         terminal.sendText(terminalCommand);

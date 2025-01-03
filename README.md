@@ -21,3 +21,5 @@ This VSCode extension enhances the editing experience of the [markdown-blog-temp
     - Half-yearly
 - Contextmenu items
   1. Import media resource
+- Markdown Snippets
+  - Triggered by slash `/`
