@@ -5,8 +5,6 @@ import * as vscode from 'vscode';
 export const isValidWorkspace: boolean = (function(): boolean {
     const workspaceFolders = vscode.workspace.workspaceFolders;
     if (!workspaceFolders || workspaceFolders.length === 0) {
-        vscode.window.showErrorMessage(
-            vscode.l10n.t('No workspace folder is open. Please open a folder and try again.'));
         return false;
     }
     const workspaceRoot = workspaceFolders[0].uri.fsPath;

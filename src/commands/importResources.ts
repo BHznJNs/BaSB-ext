@@ -38,6 +38,8 @@ export default function registerImportResourcesCommand(context: vscode.Extension
 
     const disposable = vscode.commands.registerCommand('markdown-blog-ext.import-resources', async () => {
         if (!isValidWorkspace) {
+            vscode.window.showErrorMessage(
+                vscode.l10n.t('No workspace folder is open. Please open a folder and try again.'));
             return;
         }
         const files = await vscode.window.showOpenDialog({

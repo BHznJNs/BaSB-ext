@@ -5,6 +5,8 @@ function registerCommand(context: vscode.ExtensionContext, commandName: string, 
     const disposable = vscode.commands.registerCommand('markdown-blog-ext.' + commandName, () => {
         const workspaceFolders = vscode.workspace.workspaceFolders as vscode.WorkspaceFolder[];
         if (!isValidWorkspace) {
+            vscode.window.showErrorMessage(
+                vscode.l10n.t('No workspace folder is open. Please open a folder and try again.'));
             return;
         }
         const workspaceRoot = workspaceFolders[0].uri.fsPath;
