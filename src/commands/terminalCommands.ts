@@ -29,6 +29,7 @@ export default function registerTerminalCommand(context: vscode.ExtensionContext
         ['backup'    , 'npm run backup'  ],
         ['restore'   , 'npm run restore' ],
         ['preview'   , 'npm run preview' ],
+        ['watch'     , 'npm run watch'   ],
     ];
     for (const [commandName, terminalCommand] of commandList) {
         registerCommand(context, commandName, terminalCommand);

@@ -5,10 +5,12 @@ import {
     registerImportResourcesCommand,
 } from './commands';
 
-export function activate(context: vscode.ExtensionContext) {
+export async function activate(context: vscode.ExtensionContext) {
     registerTerminalCommand(context);
     registerSummaryCommand(context);
     registerImportResourcesCommand(context);
+
+    await vscode.commands.executeCommand('markdown-blog-ext.preview');
 }
 
 export function deactivate() {}
