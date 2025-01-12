@@ -128,14 +128,14 @@
   },
 
   "Quoted Text": {
-    "prefix": "/>quote",
+    "prefix": "/quote",
     "body": [
       "> $1"
     ],
     "description": "Insert some quoted text"
   },
   "Note": {
-    "prefix": "/>note",
+    "prefix": "/note",
     "body": [
       "> [note] $1",
       "> $0"
@@ -143,7 +143,7 @@
     "description": "Insert some notes"
   },
   "Important Text": {
-    "prefix": "/>important",
+    "prefix": "/important",
     "body": [
       "> [important] $1",
       "> $0"
@@ -151,7 +151,7 @@
     "description": "Insert some important text"
   },
   "Tips": {
-    "prefix": "/>tips",
+    "prefix": "/tips",
     "body": [
       "> [tip] $1",
       "> $0"
@@ -159,7 +159,7 @@
     "description": "Insert some tips"
   },
   "Warning Text": {
-    "prefix": "/>warning",
+    "prefix": "/warning",
     "body": [
       "> [warning] $1",
       "> $0"
@@ -167,7 +167,7 @@
     "description": "Insert some warnings"
   },
   "Caution": {
-    "prefix": "/>caution",
+    "prefix": "/caution",
     "body": [
       "> [caution] $1",
       "> $0"
