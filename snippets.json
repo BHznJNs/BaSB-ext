@@ -63,15 +63,79 @@
     "description": "Insert inline formula"
   },
 
+  "Bold Text ": {
+    "prefix": "/bold",
+    "body": [
+      "##$1##"
+    ],
+    "description": "Insert bold text"
+  },
+  "Code ": {
+    "prefix": "/code",
+    "body": [
+      "``$1``"
+    ],
+    "description": "Insert inline code"
+  },
+  "Underlined Text ": {
+    "prefix": "/under",
+    "body": [
+      "__$1__"
+    ],
+    "description": "Insert underlined text"
+  },
+  "Italic Text ": {
+    "prefix": "/italic",
+    "body": [
+      "//$1//"
+    ],
+    "description": "Insert italic text"
+  },
+  "Deleted Text ": {
+    "prefix": "/deleted",
+    "body": [
+      "--$1--"
+    ],
+    "description": "Insert deleted text"
+  },
+  "Dimmed Text ": {
+    "prefix": "/dimmed",
+    "body": [
+      "::$1::"
+    ],
+    "description": "Insert dimmed text"
+  },
+  "Subscript Text ": {
+    "prefix": "/sub",
+    "body": [
+      ",,$1,,"
+    ],
+    "description": "Insert Subscript text"
+  },
+  "Superscript Text ": {
+    "prefix": "/super",
+    "body": [
+      "''$1''"
+    ],
+    "description": "Insert superscript text"
+  },
+  "Formula ": {
+    "prefix": "/formula",
+    "body": [
+      "$$$1$$"
+    ],
+    "description": "Insert inline formula"
+  },
+
   "Quoted Text": {
-    "prefix": "/>",
+    "prefix": "/>quote",
     "body": [
       "> $1"
     ],
     "description": "Insert some quoted text"
   },
   "Note": {
-    "prefix": "/>",
+    "prefix": "/>note",
     "body": [
       "> [note] $1",
       "> $0"
@@ -79,7 +143,7 @@
     "description": "Insert some notes"
   },
   "Important Text": {
-    "prefix": "/>",
+    "prefix": "/>important",
     "body": [
       "> [important] $1",
       "> $0"
@@ -87,7 +151,7 @@
     "description": "Insert some important text"
   },
   "Tips": {
-    "prefix": "/>",
+    "prefix": "/>tips",
     "body": [
       "> [tip] $1",
       "> $0"
@@ -95,7 +159,7 @@
     "description": "Insert some tips"
   },
   "Warning Text": {
-    "prefix": "/>",
+    "prefix": "/>warning",
     "body": [
       "> [warning] $1",
       "> $0"
@@ -103,7 +167,7 @@
     "description": "Insert some warnings"
   },
   "Caution": {
-    "prefix": "/>",
+    "prefix": "/>caution",
     "body": [
       "> [caution] $1",
       "> $0"
@@ -121,7 +185,7 @@
     "description": "Insert a code block"
   },
   "Collapse Block": {
-    "prefix": "/>>",
+    "prefix": "/>",
     "body": [
       ">>>$1",
       "$0",
@@ -148,7 +212,7 @@
     "description": "Insert a formula block"
   },
   "QRCode Block": {
-    "prefix": "/!qr",
+    "prefix": "/!qrcode",
     "body": [
       "!!!qrcode",
       "$1",
