@@ -3,7 +3,7 @@
   "displayName": "Blog as Second Brain",
   "description": "An enhancement VSCode extension which works with BaSB-cli",
   "icon": "logo.png",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "publisher": "BHznJNs",
   "repository": {
     "url": "https://github.com/BHznJNs/BaSB-ext"
