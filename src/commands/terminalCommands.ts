@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 import { isValidWorkspace } from '../utils/workspace';
 
 function registerCommand(context: vscode.ExtensionContext, commandName: string, terminalCommand: string) {
-    const disposable = vscode.commands.registerCommand('markdown-blog-ext.' + commandName, () => {
+    const disposable = vscode.commands.registerCommand('basb-ext.' + commandName, () => {
         const workspaceFolders = vscode.workspace.workspaceFolders as vscode.WorkspaceFolder[];
         if (!isValidWorkspace) {
             vscode.window.showErrorMessage(
@@ -22,14 +22,14 @@ function registerCommand(context: vscode.ExtensionContext, commandName: string, 
 
 export default function registerTerminalCommand(context: vscode.ExtensionContext) {
     const commandList = [
-        ['prepublish', 'npm run build; npm run count; npm run backup'],
-        ['build'     , 'npm run build'   ],
-        ['indexing'  , 'npm run indexing'],
-        ['count'     , 'npm run count'   ],
-        ['backup'    , 'npm run backup'  ],
-        ['restore'   , 'npm run restore' ],
-        ['preview'   , 'npm run preview' ],
-        ['watch'     , 'npm run watch'   ],
+        ['prepublish', 'basb-cli build; basb-cli count; basb-cli backup'],
+        ['build'     , 'basb-cli build'   ],
+        ['indexing'  , 'basb-cli indexing'],
+        ['count'     , 'basb-cli count'   ],
+        ['backup'    , 'basb-cli backup'  ],
+        ['restore'   , 'basb-cli restore' ],
+        ['preview'   , 'basb-cli preview' ],
+        ['watch'     , 'basb-cli watch'   ],
     ];
     for (const [commandName, terminalCommand] of commandList) {
         registerCommand(context, commandName, terminalCommand);

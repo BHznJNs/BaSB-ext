@@ -1,4 +1,4 @@
-# markdown-blog-ext
+# BaSB VSCode Extension
 
 This VSCode extension enhances the editing experience of the [markdown-blog-template](https://github.com/BHznJNs/markdown-blog-template) project within the VSCode environment.
 

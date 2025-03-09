@@ -14,7 +14,7 @@ export default function registerSummaryCommand(context: vscode.ExtensionContext)
         HalfYearly,
     }
 
-    const disposable = vscode.commands.registerCommand('markdown-blog-ext.create-summary', async () => {
+    const disposable = vscode.commands.registerCommand('basb-ext.create-summary', async () => {
         if (!isValidWorkspace) {
             vscode.window.showErrorMessage(
                 vscode.l10n.t('No workspace folder is open. Please open a folder and try again.'));

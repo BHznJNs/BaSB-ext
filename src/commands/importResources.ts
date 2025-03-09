@@ -36,7 +36,7 @@ export default function registerImportResourcesCommand(context: vscode.Extension
         editCallback(editor);
     }
 
-    const disposable = vscode.commands.registerCommand('markdown-blog-ext.import-resources', async () => {
+    const disposable = vscode.commands.registerCommand('basb-ext.import-resources', async () => {
         if (!isValidWorkspace) {
             vscode.window.showErrorMessage(
                 vscode.l10n.t('No workspace folder is open. Please open a folder and try again.'));

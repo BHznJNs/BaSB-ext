@@ -10,7 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
     registerSummaryCommand(context);
     registerImportResourcesCommand(context);
 
-    vscode.commands.executeCommand('markdown-blog-ext.preview');
+    vscode.commands.executeCommand('basb-ext.preview');
 }
 
 export function deactivate() {}

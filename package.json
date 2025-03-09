@@ -1,12 +1,12 @@
 {
-  "name": "markdown-blog-ext",
-  "displayName": "markdown-blog-ext",
-  "description": "An enhancement for VSCode which works with markdown-blog-template",
+  "name": "basb-ext",
+  "displayName": "Blog as Second Brain",
+  "description": "An enhancement VSCode extension which works with BaSB-cli",
   "icon": "logo.png",
   "version": "0.3.3",
   "publisher": "BHznJNs",
   "repository": {
-    "url": "https://github.com/BHznJNs/markdown-blog-ext"
+    "url": "https://github.com/BHznJNs/BaSB-ext"
   },
   "engines": {
     "vscode": "^1.92.0"
@@ -17,7 +17,7 @@
   ],
   "activationEvents": [
     "onLanguage:markdown",
-    "onCommand:markdown-blog-ext"
+    "onCommand:basb-ext"
   ],
   "main": "./out/extension.js",
   "l10n": "./l10n",
@@ -36,51 +36,51 @@
     },
     "commands": [
       {
-        "command": "markdown-blog-ext.prepublish",
+        "command": "basb-ext.prepublish",
         "title": "%commands.prepublish.title%"
       },
       {
-        "command": "markdown-blog-ext.build",
+        "command": "basb-ext.build",
         "title": "%commands.build.title%"
       },
       {
-        "command": "markdown-blog-ext.indexing",
+        "command": "basb-ext.indexing",
         "title": "%commands.indexing.title%"
       },
       {
-        "command": "markdown-blog-ext.count",
+        "command": "basb-ext.count",
         "title": "%commands.count.title%"
       },
       {
-        "command": "markdown-blog-ext.backup",
+        "command": "basb-ext.backup",
         "title": "%commands.backup.title%"
       },
       {
-        "command": "markdown-blog-ext.restore",
+        "command": "basb-ext.restore",
         "title": "%commands.restore.title%"
       },
       {
-        "command": "markdown-blog-ext.preview",
+        "command": "basb-ext.preview",
         "title": "%commands.preview.title%"
       },
       {
-        "command": "markdown-blog-ext.watch",
+        "command": "basb-ext.watch",
         "title": "%commands.watch.title%"
       },
 
       {
-        "command": "markdown-blog-ext.create-summary",
+        "command": "basb-ext.create-summary",
         "title": "%commands.create-summary.title%"
       },
       {
-        "command": "markdown-blog-ext.import-resources",
+        "command": "basb-ext.import-resources",
         "title": "%commands.impory-resources.title%"
       }
     ],
     "menus": {
       "editor/context": [
         {
-          "command": "markdown-blog-ext.import-resources",
+          "command": "basb-ext.import-resources",
           "when": "editorLangId == markdown",
           "group": "file"
         }
