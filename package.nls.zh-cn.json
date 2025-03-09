@@ -2,14 +2,14 @@
   "config.autoStartPreviewServer.title": "自动启用预览服务器",
   "config.autoStartPreviewServer.description": "如果启用来，预览服务器会在插件被激活时自动启用。",
 
-  "commands.prepublish.title": "markdown-blog: 预发布构建",
-  "commands.build.title": "markdown-blog: 构建",
-  "commands.indexing.title": "markdown-blog: 重新生成索引文件",
-  "commands.count.title": "markdown-blog: 字数计数",
-  "commands.backup.title": "markdown-blog: 备份博客元数据",
-  "commands.restore.title": "markdown-blog: 恢复博客元数据",
-  "commands.preview.title": "markdown-blog: 启用预览服务器",
-  "commands.watch.title": "markdown-blog: 开始监听静态文件夹",
-  "commands.create-summary.title": "markdown-blog: 创建阶段总结",
+  "commands.prepublish.title": "博脑：预发布构建",
+  "commands.build.title": "博脑：构建",
+  "commands.indexing.title": "博脑：重新生成索引文件",
+  "commands.count.title": "博脑：字数计数",
+  "commands.backup.title": "博脑：备份博客元数据",
+  "commands.restore.title": "博脑：恢复博客元数据",
+  "commands.preview.title": "博脑：启用预览服务器",
+  "commands.watch.title": "博脑：开始监听静态文件夹",
+  "commands.create-summary.title": "博脑：创建阶段总结",
   "commands.impory-resources.title": "Markdown: 导入资源文件"
 }

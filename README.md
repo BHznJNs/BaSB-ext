@@ -1,6 +1,6 @@
 # BaSB VSCode Extension
 
-This VSCode extension enhances the editing experience of the [markdown-blog-template](https://github.com/BHznJNs/markdown-blog-template) project within the VSCode environment.
+This VSCode extension enhances the editing experience of the [BaSB](https://github.com/BHznJNs/BaSB) project within the VSCode environment.
 
 ## Features
 

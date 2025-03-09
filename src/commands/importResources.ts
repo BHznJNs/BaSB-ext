@@ -39,7 +39,7 @@ export default function registerImportResourcesCommand(context: vscode.Extension
     const disposable = vscode.commands.registerCommand('basb-ext.import-resources', async () => {
         if (!isValidWorkspace) {
             vscode.window.showErrorMessage(
-                vscode.l10n.t('No workspace folder is open. Please open a folder and try again.'));
+                vscode.l10n.t('Not a BaSB workspace.'));
             return;
         }
         const files = await vscode.window.showOpenDialog({

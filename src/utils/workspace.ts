@@ -9,17 +9,13 @@ export const isValidWorkspace: boolean = (function(): boolean {
     }
     const workspaceRoot = workspaceFolders[0].uri.fsPath;
     const filesToCheck = [
-        'package.json',
         'index.html',
         'static/',
+        'user/',
     ];
     for (const fileName of filesToCheck) {
         const fullPath = path.join(workspaceRoot, fileName);
-        if (!fs.existsSync(fullPath)) {
-            vscode.window.showErrorMessage(
-                vscode.l10n.t('Not a markdown-blog workspace.'));
-            return false;
-        }
+        if (!fs.existsSync(fullPath)) return false;
     }
     return true;
 })();

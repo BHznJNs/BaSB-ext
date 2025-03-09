@@ -17,7 +17,7 @@ export default function registerSummaryCommand(context: vscode.ExtensionContext)
     const disposable = vscode.commands.registerCommand('basb-ext.create-summary', async () => {
         if (!isValidWorkspace) {
             vscode.window.showErrorMessage(
-                vscode.l10n.t('No workspace folder is open. Please open a folder and try again.'));
+                vscode.l10n.t('Not a BaSB workspace.'));
             return;
         }
         const options = [

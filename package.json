@@ -3,7 +3,7 @@
   "displayName": "Blog as Second Brain",
   "description": "An enhancement VSCode extension which works with BaSB-cli",
   "icon": "assets/logo.png",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "publisher": "BHznJNs",
   "repository": {
     "url": "https://github.com/BHznJNs/BaSB-ext"
@@ -24,9 +24,9 @@
   "contributes": {
     "configuration": {
       "type": "object",
-      "title": "markdown-blog Settings",
+      "title": "BaSB-ext Settings",
       "properties": {
-        "markdown-blog.autoStartPreviewServer": {
+        "basb-ext.autoStartPreviewServer": {
           "title": "%config.autoStartPreviewServer.title%",
           "description": "%config.autoStartPreviewServer.description%",
           "type": "boolean",

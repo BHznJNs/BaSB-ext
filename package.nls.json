@@ -2,14 +2,14 @@
   "config.autoStartPreviewServer.title": "Auto start preview server",
   "config.autoStartPreviewServer.description": "If enabled, the preview server will be auto started when this extension activated.",
 
-  "commands.prepublish.title": "markdown-blog: Prepublish build.",
-  "commands.build.title": "markdown-blog: Build your blogs.",
-  "commands.indexing.title": "markdown-blog: Regenerate blog index files.",
-  "commands.count.title": "markdown-blog: Count blog words.",
-  "commands.backup.title": "markdown-blog: Backup blog metadata.",
-  "commands.restore.title": "markdown-blog: Restore blog metadata.",
-  "commands.preview.title": "markdown-blog: Start a preview server.",
-  "commands.watch.title": "markdown-blog: Start to watch static directory.",
-  "commands.create-summary.title": "markdown-blog: Create a stage summary.",
+  "commands.prepublish.title": "BaSB: Prepublish build.",
+  "commands.build.title": "BaSB: Build your blogs.",
+  "commands.indexing.title": "BaSB: Regenerate blog index files.",
+  "commands.count.title": "BaSB: Count blog words.",
+  "commands.backup.title": "BaSB: Backup blog metadata.",
+  "commands.restore.title": "BaSB: Restore blog metadata.",
+  "commands.preview.title": "BaSB: Start a preview server.",
+  "commands.watch.title": "BaSB: Start to watch static directory.",
+  "commands.create-summary.title": "BaSB: Create a stage summary.",
   "commands.impory-resources.title": "Markdown: Import Resources"
 }
