@@ -2,8 +2,8 @@
   "name": "basb-ext",
   "displayName": "Blog as Second Brain",
   "description": "An enhancement VSCode extension which works with BaSB-cli",
-  "icon": "logo.png",
-  "version": "0.4.0",
+  "icon": "assets/logo.png",
+  "version": "0.4.1",
   "publisher": "BHznJNs",
   "repository": {
     "url": "https://github.com/BHznJNs/BaSB-ext"
