@@ -4,6 +4,7 @@
 
   "commands.prepublish.title": "BaSB: Prepublish build.",
   "commands.build.title": "BaSB: Build your blogs.",
+  "commands.upgrade.title": "BaSB: Upgrade the site static resources.",
   "commands.indexing.title": "BaSB: Regenerate blog index files.",
   "commands.count.title": "BaSB: Count blog words.",
   "commands.backup.title": "BaSB: Backup blog metadata.",

@@ -29,6 +29,7 @@ export default function registerTerminalCommand(context: vscode.ExtensionContext
     const commandList = [
         ['prepublish', 'basb-cli build; basb-cli count; basb-cli backup'],
         ['build'     , 'basb-cli build'   ],
+        ['upgrade'   , 'basb-cli upgrade' ],
         ['indexing'  , 'basb-cli indexing'],
         ['count'     , 'basb-cli count'   ],
         ['backup'    , 'basb-cli backup'  ],

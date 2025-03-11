@@ -4,6 +4,7 @@
 
   "commands.prepublish.title": "博脑：预发布构建",
   "commands.build.title": "博脑：构建",
+  "commands.upgrade.title": "博脑：升级站点静态资源",
   "commands.indexing.title": "博脑：重新生成索引文件",
   "commands.count.title": "博脑：字数计数",
   "commands.backup.title": "博脑：备份博客元数据",

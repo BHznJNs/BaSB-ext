@@ -44,6 +44,10 @@
         "title": "%commands.build.title%"
       },
       {
+        "command": "basb-ext.upgrade",
+        "title": "%commands.upgrade.title%"
+      },
+      {
         "command": "basb-ext.indexing",
         "title": "%commands.indexing.title%"
       },
