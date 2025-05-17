@@ -12,5 +12,6 @@
   "commands.preview.title": "BaSB: Start a preview server.",
   "commands.watch.title": "BaSB: Start to watch static directory.",
   "commands.create-summary.title": "BaSB: Create a stage summary.",
-  "commands.impory-resources.title": "Markdown: Import Resources"
+  "commands.import-resources.title": "BaSB: Import Resources",
+  "commands.create-drawio-diagram.title": "BaSB: Create Draw.io diagram"
 }

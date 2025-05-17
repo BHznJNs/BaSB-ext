@@ -12,5 +12,6 @@
   "commands.preview.title": "博脑：启用预览服务器",
   "commands.watch.title": "博脑：开始监听静态文件夹",
   "commands.create-summary.title": "博脑：创建阶段总结",
-  "commands.impory-resources.title": "Markdown: 导入资源文件"
+  "commands.import-resources.title": "博脑：导入资源文件",
+  "commands.create-drawio-diagram.title": "博脑：创建 Draw.io 图表"
 }

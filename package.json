@@ -3,7 +3,7 @@
   "displayName": "Blog as Second Brain",
   "description": "An enhancement VSCode extension which works with BaSB-cli",
   "icon": "assets/logo.png",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "publisher": "BHznJNs",
   "repository": {
     "url": "https://github.com/BHznJNs/BaSB-ext"
@@ -78,13 +78,22 @@
       },
       {
         "command": "basb-ext.import-resources",
-        "title": "%commands.impory-resources.title%"
+        "title": "%commands.import-resources.title%"
+      },
+      {
+        "command": "basb-ext.create-drawio-diagram",
+        "title": "%commands.create-drawio-diagram.title%"
       }
     ],
     "menus": {
       "editor/context": [
         {
           "command": "basb-ext.import-resources",
+          "when": "editorLangId == markdown",
+          "group": "file"
+        },
+        {
+          "command": "basb-ext.create-drawio-diagram",
           "when": "editorLangId == markdown",
           "group": "file"
         }
